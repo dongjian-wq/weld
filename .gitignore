@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Large local data and generated outputs
+data/
+Bad/
+处理结果/
+待人工处理/
+待纠偏处理/
+
+# Models and training artifacts
+*.pt
+*.pth
+model/
+models/
+runs/
+
+# Generated reports and images
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# Local logs
+*.log
