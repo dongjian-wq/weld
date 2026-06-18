@@ -22,19 +22,14 @@ Bad/
 待人工处理/
 待纠偏处理/
 
-# Models and training artifacts
-*.pt
-*.pth
-model/
-models/
-runs/
-
-# Generated reports and images
-*.xlsx
+# Images stay local.
 *.png
 *.jpg
 *.jpeg
 *.bmp
+
+# Training artifacts that can be regenerated
+runs/
 
 # Local logs
 *.log
